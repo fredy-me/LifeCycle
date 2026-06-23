@@ -2,6 +2,7 @@
     <string name="app_name">LifeCycle</string>
     <string name="greeting">Welcome back</string>
     <string name="login">Login</string>
+    <string name="homePage">Welcome Home</string>
     <string name="register">Register</string>
     <string name="lifecycle">LifeCycle</string>
     <string name="loginButton">Login</string>
