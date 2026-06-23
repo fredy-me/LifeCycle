@@ -15,6 +15,7 @@ import androidx.core.view.WindowInsetsCompat;
 public class registerActivity extends AppCompatActivity {
 
     Button btnLogin;
+    Button btnRegister;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -30,6 +31,16 @@ public class registerActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent openRegister = new Intent(registerActivity.this, LoginActivity.class);
                 startActivity(openRegister);
+                finish();
+            }
+        });
+
+        btnRegister.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent openHome = new Intent(registerActivity.this, HomeActivity.class);
+                startActivity(openHome);
+                finish();
             }
         });
     }
