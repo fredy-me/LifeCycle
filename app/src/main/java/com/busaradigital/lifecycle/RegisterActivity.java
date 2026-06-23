@@ -8,11 +8,8 @@ import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
-public class registerActivity extends AppCompatActivity {
+public class RegisterActivity extends AppCompatActivity {
 
     Button btnLogin;
     Button btnRegister;
@@ -29,7 +26,7 @@ public class registerActivity extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent openRegister = new Intent(registerActivity.this, LoginActivity.class);
+                Intent openRegister = new Intent(RegisterActivity.this, LoginActivity.class);
                 startActivity(openRegister);
                 finish();
             }
@@ -38,7 +35,7 @@ public class registerActivity extends AppCompatActivity {
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent openHome = new Intent(registerActivity.this, HomeActivity.class);
+                Intent openHome = new Intent(RegisterActivity.this, HomeActivity.class);
                 startActivity(openHome);
                 finish();
             }
