@@ -32,6 +32,9 @@ public class RegisterActivity extends AppCompatActivity {
             }
         });
 
+        //Open HomeActivity
+        btnRegister = findViewById(R.id.btnRegister);
+
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
