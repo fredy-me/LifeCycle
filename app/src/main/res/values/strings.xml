@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">LifeCycle</string>
+    <string name="greeting">Welcome back</string>
     <string name="login">Login</string>
     <string name="lifecycle">LifeCycle</string>
+    <string name="loginButton">Login</string>
+    <string name="registerButton">Register</string>
+    <string name="passwordField">Password</string>
+    <string name="emailOrUsername">Email or Username</string>
 </resources>
